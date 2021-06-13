@@ -1,0 +1,17 @@
+.middle img {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+a {
+    color: gold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover {
+    color: goldenrod;
+}
+ul {
+    margin-block-start: 0;
+}

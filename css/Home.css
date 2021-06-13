@@ -4,6 +4,10 @@
 .mySlides {
     display: none;
 }
+.mySlides img{
+    height: 750px;
+    width: 500px;
+}
 .cursor {
     cursor: pointer;
 }
@@ -43,14 +47,14 @@
     clear: both;
 }
 
-
-.middle {
-    background-color: #222;
-    height: 90%;
-}
-
 .middle img {
     padding-top: 30px;
+}
+@media (max-width: 1000px) {
+    .mySlides img{
+        height: 250px;
+        width: 150px;
+    }
 }
 
 
